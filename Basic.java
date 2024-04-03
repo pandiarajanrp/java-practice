@@ -32,5 +32,41 @@ class Basic {
         // divByte = minByte / 2; this throws error
         divByte = (byte) (minByte/2);
         System.out.println("div Byte" + divByte);
+
+        Double dt = Double.MAX_VALUE - Float.MAX_VALUE;
+        System.out.println("Decimal dt " + Double.MAX_VALUE);
+        System.out.println("Float max " + Float.MAX_VALUE);
+
+        System.out.println("Diff " + dt);
+
+        //initialize decimal
+        //float fl = 5.25; //this will throw error
+        float fl = 5.25f;
+        float fl2 = (float) 8.25;
+        System.out.println("Float value " + fl + " " + fl2);
+
+        double dlv = 5.45; //java default decimal literal is double
+        System.out.println("Double value " + dlv);
+
+        double df = 5d / 3d;
+        System.out.println("double precision " + df);
+
+        float ff = 5f / 3f;
+        System.out.println("float precision " + ff);
+
+        double myVal = 5.00 / 3f; //this will fail because double is defalut
+        double myval = (double) 5.0 / 3f;
+        System.out.println("double value " + myval);
+
+        char c = 'c';
+        char myUnicode = '\u0044'; // D
+        char decimalCode = 68;
+        String str = "hello world";
+        System.out.println("My Chars " + myUnicode + " uni " + myUnicode + " dec " + decimalCode);
+
+        //Boolean
+        boolean isDone = true;
+        boolean isReady = false;
+        System.out.println("Done " + isDone);
     }
 }
