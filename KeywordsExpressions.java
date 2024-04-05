@@ -9,5 +9,16 @@ public class KeywordsExpressions {
 
         highScore++; //this is a statement
 
+        printMessage();
+        printMessage("Welcome to Mexico");
+
+    }
+
+    public static void printMessage() {
+        System.out.println("Welcome to Methods");
+    }
+
+    public static void printMessage(String str) {
+        System.out.println("This is method with arg " + str);
     }
 }
