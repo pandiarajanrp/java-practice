@@ -1,6 +1,25 @@
 class Basic {
     public static void main(String[] args) {
-        int age = 34;
+        int age = 19;
+        //ternary
+        String isAdult = age > 18 ? "Yes" : "No";
+        if (isAdult == "Yes") {
+            System.out.println("You are adult");
+        }
+        //score
+        int topScore = 100;
+        int secondTopScore = 80;
+        int score = 85;
+        if((score >= secondTopScore) && (score <= topScore)) {
+            System.out.println("FIRST CLASS!!!!");
+        }
+        //if statement
+        boolean isAlien = false;
+        if (isAlien) {
+            System.out.println("This is from Alien");
+        }
+
+
         System.out.println("Hello World");
         System.out.println("Age is " + age);
         age = 23;
