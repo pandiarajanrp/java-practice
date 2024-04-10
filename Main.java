@@ -16,12 +16,12 @@ public class Main {
         car.describeCar();
 
         //Bank Account
-        BankAccount bankAccount = new BankAccount();
-        bankAccount.setCustomerName("Pandiarajan R");
-        bankAccount.setEmail("pandiarajan@gmail.com");
-        bankAccount.setPhoneNumber("+999999999999");
-        bankAccount.setAccountNumber(454545454);
-        bankAccount.setAccountBalance(1540.56f);
+        BankAccount bankAccount = new BankAccount("Pandiarajan R", "pandiarajan@gmail.com", "+999999999999", 454545454, 1540.56f);
+//        bankAccount.setCustomerName("Pandiarajan R");
+//        bankAccount.setEmail("pandiarajan@gmail.com");
+//        bankAccount.setPhoneNumber("+999999999999");
+//        bankAccount.setAccountNumber(454545454);
+//        bankAccount.setAccountBalance(1540.56f);
 
         bankAccount.deposit(100);
         System.out.println("New Balance " + bankAccount.getAccountBalance());

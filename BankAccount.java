@@ -5,6 +5,17 @@ public class BankAccount {
     private int accountNumber;
     private float accountBalance;
 
+    public BankAccount() {
+
+    }
+    public BankAccount(String customerName, String email, String phoneNumber, int accountNumber, float accountBalance) {
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+    }
+
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
     }
