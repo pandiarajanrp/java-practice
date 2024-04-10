@@ -28,5 +28,9 @@ public class Main {
 
         bankAccount.withDrawl(150);
         System.out.println("Balance after withdraw " + bankAccount.getAccountBalance());
+
+        Dog dog = new Dog("Maya");
+        Dog dog2 = new Dog("German Shepard");
+        System.out.println("Dog name " + dog.getName());
     }
 }
