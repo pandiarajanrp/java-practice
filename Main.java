@@ -22,7 +22,7 @@ public class Main {
 //        bankAccount.setPhoneNumber("+999999999999");
 //        bankAccount.setAccountNumber(454545454);
 //        bankAccount.setAccountBalance(1540.56f);
-
+        System.out.println("Hi " + bankAccount.getCustomerName());
         bankAccount.deposit(100);
         System.out.println("New Balance " + bankAccount.getAccountBalance());
 

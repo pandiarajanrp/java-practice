@@ -8,9 +8,13 @@ public class BankAccount {
     public BankAccount() {
 
     }
-    public BankAccount(String customerName, String email, String phoneNumber, int accountNumber, float accountBalance) {
+
+    public BankAccount(String customerName, String email) {
         this.customerName = customerName;
         this.email = email;
+    }
+    public BankAccount(String customerName, String email, String phoneNumber, int accountNumber, float accountBalance) {
+        this(customerName, email);
         this.phoneNumber = phoneNumber;
         this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;
