@@ -32,5 +32,12 @@ public class Main {
         Dog dog = new Dog("Maya");
         Dog dog2 = new Dog("German Shepard");
         System.out.println("Dog name " + dog.getName());
+
+        //Record
+        Account account = new Account("4567890987", "savings", 345);
+        System.out.println(account.accountNumber());
+        System.out.println(account.accountType());
+        System.out.println(account.accountBalance());
+
     }
 }
