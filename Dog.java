@@ -13,4 +13,9 @@ public class Dog extends Animal{
     public String getName() {
         return name;
     }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("This is dog class make noise");
+    }
 }

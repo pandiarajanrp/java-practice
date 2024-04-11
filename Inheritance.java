@@ -11,5 +11,6 @@ public class Inheritance {
         animal.walk();
         animal.makeNoise();
         animal.printDetails();
+        System.out.println(animal);
     }
 }
