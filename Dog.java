@@ -1,7 +1,12 @@
-public class Dog {
+public class Dog extends Animal{
     private static String name;
 
     public Dog(String name) {
+        Dog.name = name;
+    }
+
+    public Dog(String type, String size, int weight) {
+        super(type, size, weight);
         Dog.name = name;
     }
 
