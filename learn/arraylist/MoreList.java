@@ -24,6 +24,7 @@ public class MoreList {
         //Adding Arrays instance
         ArrayList veggiList = new ArrayList<>(Arrays.asList("tomotto", "onion", "chilli"));
         System.out.println(veggiList);
+        //veggiList.add() this fails at run time because we can't convert the array to ArrayList. use List.of instead
 
         //get index
         ArrayList combined = new ArrayList();
