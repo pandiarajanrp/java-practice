@@ -10,7 +10,9 @@ public class LinkedListInfo {
         addItem(placeToVisit);
         System.out.println(placeToVisit);
 
-        removeItem(placeToVisit);
+        getElement(placeToVisit);
+
+        //removeItem(placeToVisit);
     }
 
     private static void addItem(LinkedList<String> list) {
@@ -45,5 +47,25 @@ public class LinkedListInfo {
         System.out.println("Removed s5 = " + s5);
 
         System.out.println("List = " + list);
+    }
+
+    private static void getElement(LinkedList<String> list) {
+        System.out.println("By Index El =" + list.get(2));
+
+        System.out.println("First El =" + list.getFirst());
+
+        System.out.println("Last El =" + list.getLast());
+
+        System.out.println("IndexOf =" + list.indexOf("Madurai"));
+
+        System.out.println("Last Index Of =" + list.lastIndexOf("Trichy"));
+
+        System.out.println("Element =" + list.element());
+
+        System.out.println("Peek =" + list.peek());
+
+        System.out.println("PeekFirst =" + list.peekFirst());
+
+        System.out.println("PeekLast =" + list.peekLast());
     }
 }
